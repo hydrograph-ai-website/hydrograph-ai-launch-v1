@@ -1,0 +1,10 @@
+export default function Demo() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-8">Loading private demo…</h1>
+        <script dangerouslySetInnerHTML={{__html: `window.location.href = "https://hydrograph-demo.streamlit.app"`}} />
+      </div>
+    </div>
+  )
+}
